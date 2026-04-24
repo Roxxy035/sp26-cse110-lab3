@@ -3,242 +3,260 @@
   <head>
     <title>Team 22 - $1.50 Costco Developers | Meeting Minutes</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Meeting minutes for Team 22 - $1.50 Costco Developers, CSE 110 Spring 2026">
     <link rel="icon" href="$1.5CD.jpeg" type="image/jpeg">
+    <!-- External CSS stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Internal CSS with style element -->
+    <style>
+      /* Internal style: accent border on the feedback form section */
+      #feedback-form {
+        border-left: 5px solid #e67e22;
+      }
+    </style>
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <h1>Team 22 - $1.50 Costco Developers</h1>
       <h2>Meeting Minutes</h2>
       <nav>
-        <a href="#kickoff">Kickoff Meeting</a> |
-        <a href="#ta-meeting">TA Meeting</a> |
-        <a href="#feedback-form">Feedback Form</a> |
-        <a href="https://www.reddit.com/r/TikTokCringe/comments/16258gi/entering_glizzy_overdrive/" target="_blank">Glizzy Overdrive</a> |
-        <a href="https://github.com/cse110-sp26-group22/cse110-sp26-group22.git" target="_blank">Team GitHub Repo</a>
+        <div class="nav-links">
+          <a href="#kickoff">Kickoff Meeting</a>
+          <a href="#ta-meeting">TA Meeting</a>
+          <a href="#feedback-form">Feedback Form</a>
+          <a href="https://www.reddit.com/r/TikTokCringe/comments/16258gi/entering_glizzy_overdrive/" target="_blank">Glizzy Overdrive</a>
+          <a href="https://github.com/cse110-sp26-group22/cse110-sp26-group22.git" target="_blank">Team GitHub Repo</a>
+        </div>
       </nav>
     </header>
 
-    <main>
-      <hr>
+    <div class="page-wrapper">
+      <main>
 
-      <!-- ===================== KICKOFF MEETING ===================== -->
-      <section id="kickoff">
-        <h2>Kickoff Meeting - 4/11/2026</h2>
-        <h3>Meeting Details</h3>
-        <p><strong>Time:</strong> 10am - 11am</p>
-        <p><strong>Type:</strong> Virtual through Google Meet</p>
+        <!-- ===================== KICKOFF MEETING ===================== -->
+        <section id="kickoff" class="meeting-section">
+          <h2>Kickoff Meeting - 4/11/2026 <span class="inline-block-badge">Virtual</span></h2>
+          <h3>Meeting Details</h3>
+          <p><strong>Time:</strong> 10am - 11am</p>
+          <p><strong>Type:</strong> Virtual through Google Meet</p>
 
-        <h3>Attendance</h3>
-        <p><b>Members Attended:</b></p>
-        <ul>
-          <li>Angel</li>
-          <li>Dmitri</li>
-          <li>Lucien</li>
-          <li>Anirudh</li>
-          <li>Sirtaj</li>
-          <li>Kaung</li>
-        </ul>
-        <p><b>Members w/ Communicated Absence:</b></p>
-        <ul>
-          <li>Brenda</li>
-          <li>Sean</li>
-        </ul>
-        <p><b>Members w/ Uncommunicated Absence:</b></p>
-        <ul>
-          <li>Sofia</li>
-          <li>Yannis</li>
-          <li>Benjamin</li>
-        </ul>
+          <h3>Attendance</h3>
+          <p><b>Members Attended:</b></p>
+          <ul>
+            <li>Angel</li>
+            <li>Dmitri</li>
+            <li>Lucien</li>
+            <li>Anirudh</li>
+            <li>Sirtaj</li>
+            <li>Kaung</li>
+          </ul>
+          <p><b>Members w/ Communicated Absence:</b></p>
+          <ul>
+            <li>Brenda</li>
+            <li>Sean</li>
+          </ul>
+          <p><b>Members w/ Uncommunicated Absence:</b></p>
+          <ul>
+            <li>Sofia</li>
+            <li>Yannis</li>
+            <li>Benjamin</li>
+          </ul>
 
-        <h3>Agenda</h3>
-        <ol>
-          <li>Team Branding</li>
-          <li>Team Page</li>
-          <li>Introduction Video</li>
-          <li>Team Contract</li>
-        </ol>
+          <h3>Agenda</h3>
+          <ol>
+            <li>Team Branding</li>
+            <li>Team Page</li>
+            <li>Introduction Video</li>
+            <li>Team Contract</li>
+          </ol>
 
-        <h3>Team Branding</h3>
-        <p>The team color is <b>red</b>. The team mascot is a hot dog guy that Dmitri drew. This hot dog guy will be both on our team logo and will be our mascot. This icon will also be our Slack workspace logo.</p>
-        <img src="$1.5CD.jpeg" alt="Team 22 mascot - a hot dog character holding a laptop, with the text $1.50 Costco Developer" width="300">
+          <h3>Team Branding</h3>
+          <p>The team color is <b>red</b>. The team mascot is a hot dog guy that Dmitri drew. This hot dog guy will be both on our team logo and will be our mascot. This icon will also be our Slack workspace logo.</p>
+          <img src="$1.5CD.jpeg" alt="Team 22 mascot - a hot dog character holding a laptop, with the text $1.50 Costco Developer" width="300">
 
-        <h3>Team Page</h3>
-        <p>This task has been delegated to <em>Kaung</em>, who will reach out to all members in Slack to find a teammate for the page.</p>
+          <h3>Team Page</h3>
+          <p>This task has been delegated to <em>Kaung</em>, who will reach out to all members in Slack to find a teammate for the page.</p>
 
-        <h3>Introduction Video</h3>
-        <p>Each member of the team will send a short clip introducing themselves. <em>Anirudh</em> will stitch these clips together in order to create the video.</p>
+          <h3>Introduction Video</h3>
+          <p>Each member of the team will send a short clip introducing themselves. <em>Anirudh</em> will stitch these clips together in order to create the video.</p>
 
-        <h3>Team Contract</h3>
-        <p>The team went over the given conversation starters and brainstormed a few bullet points for each category. This contract will have an addendum in the future enumerating all of the group roles after we know what the project is and what the roles we need are.</p>
+          <h3>Team Contract</h3>
+          <p>The team went over the given conversation starters and brainstormed a few bullet points for each category. This contract will have an addendum in the future enumerating all of the group roles after we know what the project is and what the roles we need are.</p>
 
-        <details>
-          <summary>Unfinished Business from Last Meeting</summary>
-          <p><i>This was the first meeting, so there was no unfinished business.</i></p>
-        </details>
+          <details>
+            <summary>Unfinished Business from Last Meeting</summary>
+            <p><i>This was the first meeting, so there was no unfinished business.</i></p>
+          </details>
 
-        <details>
-          <summary>New Business</summary>
-          <p>All items listed in the agenda above are new business items introduced during this kickoff meeting.</p>
-        </details>
+          <details>
+            <summary>New Business</summary>
+            <p>All items listed in the agenda above are new business items introduced during this kickoff meeting.</p>
+          </details>
 
-        <h3>Kickoff Recording</h3>
-        <p>Video recording of the meeting:</p>
-        <video controls width="400">
-          <source src="teamintro.mp4" type="video/mp4">
-          Your browser does not support the video element.
-        </video>
-        <br>
-        <p>Audio recording of the meeting:</p>
-        <audio controls>
-          <source src="teamintro.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-        <br>
-        <audio controls>
-          <source src="1_IntroVirtuoso.mp3" type="audio/mpeg">
-          Your browser does not support the audio element.
-        </audio>
-      </section>
-
-      <hr>
-
-      <!-- ===================== TA MEETING ===================== -->
-      <section id="ta-meeting">
-        <h2>TA Meeting - 4/16/2026</h2>
-        <h3>Meeting Details</h3>
-        <p><strong>Time:</strong> 1 pm - 1:30 pm</p>
-        <p><strong>Type:</strong> Virtual (Zoom)</p>
-
-        <h3>Attendance</h3>
-        <p><b>Members Attended:</b></p>
-        <ul>
-          <li>Angel</li>
-          <li>Dmitri</li>
-          <li>Brenda</li>
-          <li>Sofia</li>
-          <li>Sean</li>
-          <li>Ben</li>
-          <li>Kaung</li>
-          <li>Sirtaj</li>
-          <li>Yannis</li>
-          <li>Anirudh</li>
-        </ul>
-        <p><b>Members Absent:</b></p>
-        <ul>
-          <li>Lucien <i>(communicated that he had class ahead of time)</i></li>
-        </ul>
-
-        <h3>Agenda</h3>
-        <ol>
-          <li>Introductions: name, year, major, contributions to assignments so far</li>
-          <li>Goal of the meeting is to set expectations for project and class overall</li>
-        </ol>
-
-        <h3>Grading</h3>
-        <p>Everyone gets an <strong>individual grade</strong> depending on communication, professionalism, contributions, and accountability.</p>
-
-        <h3>Feedback</h3>
-        <p><b>How is the team meeting?</b><br>
-        Every Monday in person at Geisel during discussion time, Wednesdays during lab time as needed.</p>
-
-        <p><b>How has the week been?</b><br>
-        Lots of assignments meant difficult deadlines for the team. It should be better going forward as we get used to the flow of things and as team leads get more used to delegation of tasks.</p>
-
-        <p><b>Have you talked about structuring the GitHub?</b><br>
-        No. Ayla mentioned organizing branches based on features and subteams. Aim to discuss this on the 4/20 meeting.</p>
-
-        <p><b>Assign roles in the future</b><br>
-        Will it be rotating roles? Subteams? To be discussed in the 4/20 meeting.</p>
-
-        <p><em>Future meetings with the TA will be mostly with the team leads only.</em></p>
-
-        <h3>Questions</h3>
-        <details>
-          <summary>What is the project and when will it come out?</summary>
-          <p>The TA can't say any details. They are all unsure about when the project will come out because it was supposed to come out in Week 2.</p>
-        </details>
-        <details>
-          <summary>The next assignment is another warmup like the AI Slot Machine?</summary>
-          <p>The TA does not know when it will be out but she expects latest by Monday.</p>
-        </details>
-        <details>
-          <summary>What kind of tooling? Frontend/backend?</summary>
-          <p>It is mostly what we are learning in lab (so frontend languages), but there are no guardrails on what exactly can be done.</p>
-        </details>
-        <details>
-          <summary>How does the TA adding a new feature work?</summary>
-          <p>The TA is not adding a feature, but code should be clean, maintainable, and well documented such that a new feature could be added.</p>
-        </details>
-
-        <h3>Miscellaneous Comments</h3>
-        <p>No additional comments or concerns were raised during this meeting.</p>
-      </section>
-
-      <hr>
-
-      <!-- ===================== FORM ===================== -->
-      <section id="feedback-form">
-        <h2>Meeting Feedback Form</h2>
-        <p>Please fill out this form to provide feedback on the meetings.</p>
-
-        <form>
-          <fieldset>
-            <legend>Your Information</legend>
-            <label for="name">Name:</label><br>
-            <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
-
-            <label for="meeting-date">Meeting Date:</label><br>
-            <input type="date" id="meeting-date" name="meeting-date"><br><br>
-
-            <label for="meeting-select">Which meeting?</label><br>
-            <select id="meeting-select" name="meeting-select">
-              <option value="kickoff">Kickoff Meeting - 4/11</option>
-              <option value="ta-meeting">TA Meeting - 4/16</option>
-            </select>
-          </fieldset>
-
-          <fieldset>
-            <legend>Feedback</legend>
-
-            <p>How would you rate the meeting?</p>
-            <input type="radio" id="rating-good" name="rating" value="good">
-            <label for="rating-good">Good</label><br>
-            <input type="radio" id="rating-ok" name="rating" value="ok">
-            <label for="rating-ok">OK</label><br>
-            <input type="radio" id="rating-bad" name="rating" value="bad">
-            <label for="rating-bad">Needs Improvement</label><br><br>
-
-            <label for="topic">What topic would you like covered next?</label><br>
-            <input type="text" id="topic" name="topic" list="topic-suggestions" placeholder="Type or select a topic"><br>
-            <datalist id="topic-suggestions">
-              <option value="GitHub branching strategy">
-              <option value="Role assignments">
-              <option value="Project planning">
-              <option value="Sprint scheduling">
-            </datalist>
-            <br>
-
-            <input type="checkbox" id="follow-up" name="follow-up" value="yes">
-            <label for="follow-up">I would like a follow-up on my feedback</label><br><br>
-
-            <label for="comments">Additional comments:</label><br>
-            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your comments here..."></textarea>
-          </fieldset>
-
+          <h3>Kickoff Recording</h3>
+          <p>Video recording of the meeting:</p>
+          <video controls width="400">
+            <source src="teamintro.mp4" type="video/mp4">
+            Your browser does not support the video element.
+          </video>
           <br>
-          <button type="submit">Submit Feedback</button>
-        </form>
-      </section>
-    </main>
+          <p>Audio recording of the meeting:</p>
+          <audio controls>
+            <source src="teamintro.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+          <br>
+          <audio controls>
+            <source src="1_IntroVirtuoso.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        </section>
 
-    <hr>
+        <hr>
 
-    <footer>
+        <!-- ===================== TA MEETING ===================== -->
+        <section id="ta-meeting" class="meeting-section">
+          <h2>TA Meeting - 4/16/2026 <span class="inline-block-badge">Virtual</span></h2>
+          <h3>Meeting Details</h3>
+          <p><strong>Time:</strong> 1 pm - 1:30 pm</p>
+          <p><strong>Type:</strong> Virtual (Zoom)</p>
+
+          <h3>Attendance</h3>
+          <p><b>Members Attended:</b></p>
+          <ul>
+            <li>Angel</li>
+            <li>Dmitri</li>
+            <li>Brenda</li>
+            <li>Sofia</li>
+            <li>Sean</li>
+            <li>Ben</li>
+            <li>Kaung</li>
+            <li>Sirtaj</li>
+            <li>Yannis</li>
+            <li>Anirudh</li>
+          </ul>
+          <p><b>Members Absent:</b></p>
+          <ul>
+            <li>Lucien <i>(communicated that he had class ahead of time)</i></li>
+          </ul>
+
+          <h3>Agenda</h3>
+          <ol>
+            <li>Introductions: name, year, major, contributions to assignments so far</li>
+            <li>Goal of the meeting is to set expectations for project and class overall</li>
+          </ol>
+
+          <h3>Grading</h3>
+          <p>Everyone gets an <strong>individual grade</strong> depending on communication, professionalism, contributions, and accountability.</p>
+
+          <h3>Feedback</h3>
+          <p><b>How is the team meeting?</b><br>
+          Every Monday in person at Geisel during discussion time, Wednesdays during lab time as needed.</p>
+
+          <p><b>How has the week been?</b><br>
+          Lots of assignments meant difficult deadlines for the team. It should be better going forward as we get used to the flow of things and as team leads get more used to delegation of tasks.</p>
+
+          <p><b>Have you talked about structuring the GitHub?</b><br>
+          No. Ayla mentioned organizing branches based on features and subteams. Aim to discuss this on the 4/20 meeting.</p>
+
+          <p><b>Assign roles in the future</b><br>
+          Will it be rotating roles? Subteams? To be discussed in the 4/20 meeting.</p>
+
+          <!-- Inline CSS example -->
+          <p style="color: #7f8c8d; font-style: italic;">Future meetings with the TA will be mostly with the team leads only.</p>
+
+          <h3>Questions</h3>
+          <details>
+            <summary>What is the project and when will it come out?</summary>
+            <p>The TA can't say any details. They are all unsure about when the project will come out because it was supposed to come out in Week 2.</p>
+          </details>
+          <details>
+            <summary>The next assignment is another warmup like the AI Slot Machine?</summary>
+            <p>The TA does not know when it will be out but she expects latest by Monday.</p>
+          </details>
+          <details>
+            <summary>What kind of tooling? Frontend/backend?</summary>
+            <p>It is mostly what we are learning in lab (so frontend languages), but there are no guardrails on what exactly can be done.</p>
+          </details>
+          <details>
+            <summary>How does the TA adding a new feature work?</summary>
+            <p>The TA is not adding a feature, but code should be clean, maintainable, and well documented such that a new feature could be added.</p>
+          </details>
+
+          <h3>Miscellaneous Comments</h3>
+          <p>No additional comments or concerns were raised during this meeting.</p>
+        </section>
+
+        <hr>
+
+        <!-- ===================== FORM ===================== -->
+        <section id="feedback-form" class="meeting-section">
+          <h2>Meeting Feedback Form</h2>
+          <p>Please fill out this form to provide feedback on the meetings.</p>
+
+          <form>
+            <div class="form-grid">
+              <fieldset>
+                <legend>Your Information</legend>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+
+                <label for="meeting-date">Meeting Date:</label><br>
+                <input type="date" id="meeting-date" name="meeting-date"><br><br>
+
+                <label for="meeting-select">Which meeting?</label><br>
+                <select id="meeting-select" name="meeting-select">
+                  <option value="kickoff">Kickoff Meeting - 4/11</option>
+                  <option value="ta-meeting">TA Meeting - 4/16</option>
+                </select>
+              </fieldset>
+
+              <fieldset>
+                <legend>Feedback</legend>
+
+                <p>How would you rate the meeting?</p>
+                <input type="radio" id="rating-good" name="rating" value="good">
+                <label for="rating-good">Good</label><br>
+                <input type="radio" id="rating-ok" name="rating" value="ok">
+                <label for="rating-ok">OK</label><br>
+                <input type="radio" id="rating-bad" name="rating" value="bad">
+                <label for="rating-bad">Needs Improvement</label><br><br>
+
+                <label for="topic">What topic would you like covered next?</label><br>
+                <input type="text" id="topic" name="topic" list="topic-suggestions" placeholder="Type or select a topic"><br>
+                <datalist id="topic-suggestions">
+                  <option value="GitHub branching strategy">
+                  <option value="Role assignments">
+                  <option value="Project planning">
+                  <option value="Sprint scheduling">
+                </datalist>
+                <br>
+
+                <input type="checkbox" id="follow-up" name="follow-up" value="yes">
+                <label for="follow-up">I would like a follow-up on my feedback</label><br><br>
+
+                <label for="comments">Additional comments:</label><br>
+                <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your comments here..."></textarea>
+              </fieldset>
+            </div>
+
+            <br>
+            <button type="submit">Submit Feedback</button>
+          </form>
+        </section>
+      </main>
+
+      <hr>
+    </div>
+
+    <footer class="site-footer">
       <p>Team 22 - <span>$1.50 Costco Developers</span> | CSE 110 Spring 2026</p>
       <div>
-        <p><i>These meeting minutes are for internal team use only, but Imma let it slide.</i></p>
+        <p><i>These meeting minutes are for internal team use only.</i></p>
       </div>
     </footer>
+
+    <a href="#" class="scroll-top" aria-label="Scroll to top">↑</a>
   </body>
 </html>
